@@ -21,7 +21,7 @@ module.exports = {
             userid: checkEmail._id,
             role: checkEmail.asRole,
           },
-          process.env.secret,
+          "1234565",
           { expiresIn: "4h" }
         );
         res.json({
